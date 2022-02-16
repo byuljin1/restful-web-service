@@ -10,9 +10,6 @@ public class HelloWorldController {
 //  GET
 //  /hello-world (endpoint)
 //  @RequestMapping(method= RequestMethod.GET, path="/hello-world")
-//SpringBoot 프로젝트 생성
-//RestContoller 생성
-//lombok 활용 Bean 생성
     @GetMapping(path="/hello-world")
     public String helloWorld() {
         return "Hello World";
